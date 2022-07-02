@@ -1,23 +1,25 @@
-import Button from "../UI/Button";
+// import Button from "../UI/Button";
+import classes from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <div className="mt-[3.75rem] h-full relative font-body">
-      <div className="absolute top-0 left-[10%] ">
-        <img src="./img/design1.png" alt="" />
-      </div>
-      <div className=" flex flex-col items-center justify-center md:p-28 ">
-        <div className="text-lg font-semibold lg:text-2xl">
-          Hi, I'm Benjamin
-        </div>
+    <div className={classes["hero__section"]}>
+      <img
+        src="./img/design1.png"
+        alt="dots"
+        className={classes["img__left"]}
+      />
 
-        <h1 className="text-[2.0rem] font-hero m-4 font-bold text-center lg:text-[4rem] ">
-          Building digital{" "}
-          <span className="block "> products, brands, and </span>
+      <div className={classes["hero__text__box"]}>
+        <div className={classes["hero__text__one"]}>Hi, I'm Benjamin</div>
+
+        <h1 className={classes["hero__text__main"]}>
+          Building digital
+          <span className="block"> products, brands, and </span>
           experience.
         </h1>
 
-        <div className="font-medium text-secondary-100 text-center">
+        <div className={classes["hero__text__sub"]}>
           a <span className="font-semibold text-primary">Product Designer</span>{" "}
           and{" "}
           <span className="font-semibold text-primary ">
@@ -29,11 +31,15 @@ const Hero = () => {
           </span>
           and visual development.
         </div>
-        <Button>Connect with me</Button>
+
+        <button className={classes["btn"]}>Connect with me</button>
       </div>
-      <div className="absolute bottom-[15%] right-[10%]">
-        <img src="./img/design2.png" alt="" />
-      </div>
+
+      <img
+        src="./img/design2.png"
+        alt="dots"
+        className={classes["img__right"]}
+      />
     </div>
   );
 };

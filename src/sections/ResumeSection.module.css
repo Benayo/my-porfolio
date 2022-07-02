@@ -1,0 +1,68 @@
+.container {
+  @apply mx-[1rem] my-[4rem] font-body relative md:mx-[6.25rem];
+}
+
+.label__box {
+  @apply flex items-center  relative;
+}
+
+.label__text {
+  @apply font-hero font-bold text-primary text-2xl md:text-4xl  absolute left-[5%] bottom-0  xl:bottom-[10%];
+}
+
+.image {
+  @apply w-[4rem] lg:w-[4.5rem]  xl:w-auto;
+}
+
+.resume__container__main {
+  @apply font-body text-primary;
+}
+
+.resume__grid__container__main {
+  @apply grid lg:grid-cols-3 lg:gap-x-28;
+}
+
+.resume__container__sub--1 {
+  @apply col-span-1;
+}
+
+.resume__container__sub--2 {
+  @apply col-span-2  mt-8 lg:mt-0;
+}
+
+.resume__heading__main {
+  @apply text-base md:text-2xl xl:text-[2rem]  font-medium mb-10;
+}
+
+.resume__heading__sub {
+  @apply text-sm md:text-xl xl:text-2xl  font-medium mb-8;
+}
+
+.resume__text__box {
+  @apply flex justify-between items-baseline mb-6;
+}
+
+.resume__text__main {
+  @apply text-sm md:text-base font-medium;
+}
+
+.resume__text__main--1 {
+  @apply text-xs  font-medium text-secondary-100;
+}
+
+.resume__text__sub {
+  @apply text-xs leading-6  md:text-sm md:leading-8 text-secondary-100;
+}
+
+.resume__grid__container__sub {
+  @apply grid grid-cols-3 md:gap-x-24;
+}
+
+.resume__list {
+  @apply text-xs mb-4 md:text-base  text-secondary-100 font-medium;
+}
+
+.resume__text {
+  @apply text-[5rem] md:text-[12.5rem] font-logo  font-bold opacity-[3%] absolute right-0 bottom-[0%] md:bottom-[-5%];
+}
+/* font-hero font-bold text-[2.75rem] absolute top-[60%] left-[5%] text-primary */

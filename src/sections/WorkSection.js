@@ -1,57 +1,65 @@
-import Layout from "../layout/Layout";
+import classes from "./WorkSection.module.css";
 
 const WorkSection = () => {
   return (
-    <div className=" mt-[7.5rem] pt-[1.875rem]  pb-[3.75rem] font-body bg-secondary-200 ">
-      <Layout>
-        <div className="relative flex justify-center">
-          <div className="">
-            <img src="./img/design5.png" alt="" />
-          </div>
-          <div className=" font-hero font-bold text-[2.75rem] text-primary absolute top-[50%]">
-            Works
-          </div>
+    <section id="my-works" className={classes["container__main"]}>
+      <div className={classes["container__sub"]}>
+        <div className={classes["label__box"]}>
+          <img src="./img/design5.png" alt="dots" className={classes.image} />
+          <div className={classes["label__text"]}>Works</div>
         </div>
-        <div className="grid grid-cols-3 mt-[5rem] gap-x-[6.5625rem]">
-          <div>
-            <div className="mb-[2rem]">
-              <img src="./img/img-work-1.png" alt="Food App Project" />
-            </div>
-            <div className="text-sm leading-7 text-secondary-100">
+
+        <div className={classes["grid__container"]}>
+          <div className="flex flex-col items-center justify-center  mb-11 sm:mb-0">
+            <img
+              src="./img/img-work-1.png"
+              alt="Food App Project"
+              className={classes["work__img"]}
+            />
+
+            <span className={classes["work__text"]}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
               mauris arcu integer venenatis nunc. Sit vulputate nulla neque
               cursus vitae.
-            </div>
+            </span>
           </div>
-          <div>
-            <div className="mb-[2rem]">
-              <img src="./img/img-work-2.png" alt="Food App Project" />
-            </div>
-            <div className="text-sm leading-7 text-secondary-100">
+          <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
+            <img
+              src="./img/img-work-2.png"
+              alt="Food App Project"
+              className={classes["work__img"]}
+            />
+
+            <span className={classes["work__text"]}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
               mauris arcu integer venenatis nunc. Sit vulputate nulla neque
               cursus vitae.
-            </div>
+            </span>
           </div>
-          <div>
-            <div className="mb-[2rem]">
-              <img src="./img/img-work-3.png" alt="Food App Project" />
-            </div>
-            <div className="text-sm leading-7 text-secondary-100">
+          <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
+            <img
+              src="./img/img-work-3.png"
+              alt="Food App Project"
+              className={classes["work__img"]}
+            />
+
+            <span className={classes["work__text"]}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
               mauris arcu integer venenatis nunc. Sit vulputate nulla neque
               cursus vitae.
-            </div>
+            </span>
           </div>
         </div>
 
-        <div className=" mt-[3.75rem] w-fit text-center bg-primary px-4 py-3 rounded-md m-auto">
+        {/* <div className=" mt-[3.75rem] w-fit text-center bg-primary px-4 py-3 rounded-md ">
           <a href="/" className="mt-11 no-underline text-white uppercase  ">
             @BENAYO ON BEHANCE
           </a>
-        </div>
-      </Layout>
-    </div>
+        </div> */}
+
+        <button className={classes.btn}>@BENAYO on behance</button>
+      </div>
+    </section>
   );
 };
 export default WorkSection;

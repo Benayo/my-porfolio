@@ -1,58 +1,144 @@
-import Layout from "../layout/Layout";
+import classes from "./FooterSection.module.css";
 
 const FooterSection = () => {
   return (
-    <div className="bg-black font-body mb-20">
-      <Layout>
-        <div className="pt-20 mb-8  ">
-          <div className="text-white  font-hero font-bold text-[2.75rem] mb-4">
-            Contact me
-          </div>
-          <div className="text-white  font-hero font-regular text-xl">
+    <section id="contact" className={classes["main__container"]}>
+      <div className={classes.container}>
+        <div className={classes.label}>
+          <div className={classes["label__main"]}>Contact me</div>
+          <div className={classes["label__sub"]}>
             Want To Get In Touch Or Need Me On Your Team?
           </div>
         </div>
-        <div className="grid grid-cols-2 ">
-          <fom className="pr-[6.75rem]">
-            <input
-              type="text"
-              placeholder="Full Name"
-              className="w-full  h-11 rounded-md border-none pl-4 mb-6 outline-none"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full  h-11 rounded-md border-none pl-4 mb-6 outline-none"
-            />
-            <input
-              type="numeric"
-              placeholder="Phone Number"
-              className="w-full  h-11 rounded-md border-none pl-4 mb-6 outline-none appearance-none"
-            />
+        <div className={classes["grid__container"]}>
+          <form>
+            <input type="text" placeholder="Full Name" />
+
+            <input type="email" placeholder="Email" />
+            <input type="numeric" placeholder="Phone Number" />
             <textarea
               name="message"
               id=""
               cols="30"
               rows="10"
               placeholder="Enter your message"
-              className="w-full rounded-md border-none pl-4  font-body pt-4 outline-none"
             ></textarea>
+            <button className={classes.btn}>Submit</button>
+          </form>
 
-            <div className=" text-center cursor-pointer mt-8  bg-[#828282] py-3 rounded-md">
-              <a href="/" className="  no-underline text-white  ">
-                Submit
+          <div>
+            <div className={classes["contact__link__container"]}>
+              <div className={classes["contact__link"]}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={classes["contact__link__svg"]}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <span>Ilupeju, Lagos</span>
+              </div>
+
+              <div className={classes["contact__link"]}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={classes["contact__link__svg"]}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+
+                <span>benjaminodeleye1@gmail.com</span>
+              </div>
+              <div className={classes["contact__link"]}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={classes["contact__link__svg"]}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+
+                <span>+234-818-343-7774</span>
+              </div>
+            </div>
+            <div>
+              <a href="/">
+                <img
+                  src="./img/git.png"
+                  alt=""
+                  className={classes["contact__link__img"]}
+                />
+              </a>
+              <a href="/">
+                <img
+                  src="./img/facebook.png"
+                  alt=""
+                  className={classes["contact__link__img"]}
+                />
+              </a>
+              <a href="/">
+                <img
+                  src="./img/instagram.png"
+                  alt=""
+                  className={classes["contact__link__img"]}
+                />
+              </a>
+              <a href="/">
+                <img
+                  src="./img/twitter.png"
+                  alt=""
+                  className={classes["contact__link__img"]}
+                />
+              </a>
+              <a href="/">
+                <img
+                  src="./img/linkedin.png"
+                  alt=""
+                  className={classes["contact__link__img"]}
+                />
               </a>
             </div>
-          </fom>
-          <div className="bg-blue-600"> icons</div>
+          </div>
         </div>
-        <div>
-          <div></div>
-          <div> © Copyright2022. All rights reserved</div>
-          <div></div>
+
+        <div className="my-24 flex  justify-center items-center">
+          <span className="w-0 xl:w-[37%] h-[0.0625rem] bg-white mr-10"></span>
+          <div>
+            <span className="text-white font-body text-xs inline">
+              © Copyright2022. All rights reserved
+            </span>
+          </div>
+          <span className="w-0 xl:w-[37%] h-[0.0625rem] bg-white ml-10"></span>
         </div>
-      </Layout>
-    </div>
+      </div>
+    </section>
   );
 };
 

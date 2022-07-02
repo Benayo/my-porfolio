@@ -1,19 +1,16 @@
-import Layout from "../layout/Layout";
 import Nav from "../components/Nav";
-
 import Hero from "../components/Hero";
 
+import classes from "./HeaderSection.module.css";
 
-const Header = () => {
+const HeaderSection = () => {
   return (
-    <Layout>
+    <div className={classes.container}>
       <Nav />
       <Hero />
-      <div className="text-[12.5rem] font-logo  font-bold opacity-[3%] absolute left-[-18%] bottom-[-10%] ">
-        Hello There.
-      </div>
-    </Layout>
+      <div className={classes["header__text"]}>Hello There.</div>
+    </div>
   );
 };
 
-export default Header;
+export default HeaderSection;

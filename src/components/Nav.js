@@ -1,46 +1,53 @@
+import { HashLink as Link } from "react-router-hash-link";
+
+import classes from "./Nav.module.css";
+
 const Nav = () => {
   return (
     <nav>
-      <div className=" flex justify-between items-center">
-        <div className="flex items-baseline border-2 border-orange-800">
+      <div className={classes["nav__bar"]}>
+        <div className={classes["logo__box"]}>
           <span className="font-logo text-logo font-normal ">BA</span>
           <div className="w-4 h-4 bg-primary rounded-full "></div>
         </div>
 
-        <ul className="text-list list-none font-body font-medium opacity-75 flex ">
+        <ul className={classes["nav__link"]}>
           <li>
-            <a
-              href="/"
-              className="no-underline text-primary   pr-[3.75rem] hover:font-semibold transition ease-out duration-500 "
-            >
-              <span>About</span>
-            </a>
+            <Link to="#about-me" smooth>
+              About
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              className="no-underline text-primary   pr-[3.75rem] hover:font-semibold transition ease-out duration-500"
-            >
-              <span>Resumé</span>
-            </a>
+            <Link to="#resume" smooth>
+              Resumé
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              className="no-underline text-primary   pr-[3.75rem] hover:font-semibold transition ease-out duration-500"
-            >
-              <span>Works</span>
-            </a>
+            <Link to="#my-works" smooth>
+              Works
+            </Link>
           </li>
           <li>
-            <a
-              href="/"
-              className="no-underline text-primary hover:font-semibold transition ease-out duration-500"
-            >
-              <span>Contact me</span>
-            </a>
+            <Link to="#contact" smooth>
+              Contact
+            </Link>
           </li>
         </ul>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6  md:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h8m-8 6h16"
+          />
+        </svg>
       </div>
     </nav>
   );

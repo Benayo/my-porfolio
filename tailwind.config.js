@@ -22,6 +22,10 @@ module.exports = {
         },
       },
     },
+
+    backgroundImage: {
+      'profile--image': "url('/img/img-1.png')"
+    }
   },
   plugins: [],
 };

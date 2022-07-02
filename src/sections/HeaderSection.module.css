@@ -1,0 +1,7 @@
+.container {
+  @apply mx-[1rem] font-body relative md:mx-[6.25rem];
+}
+
+.header__text {
+  @apply text-[5rem] font-logo  font-bold opacity-[3%] absolute left-[-5%] bottom-[-5%]   md:text-[10.25rem];
+}

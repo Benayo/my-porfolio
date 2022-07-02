@@ -1,19 +1,16 @@
-import Layout from "../layout/Layout";
+import classes from "./AboutSection.module.css";
 
 const AboutSection = () => {
   return (
-    <Layout>
-      <div className="flex ">
-        <div className=" font-hero font-bold text-[2.75rem] text-primary">
-          About me
-        </div>
-        <div className="absolute top-[-7%] left-[12%]">
-          <img src="./img/design3.png" />
-        </div>
+    <section id="about-me" className={classes.container}>
+      <div className={classes["label__box"]}>
+        <div className={classes["label__text"]}>About me</div>
+
+        <img src="./img/design3.png" className={classes.image} />
       </div>
-      <div className="grid grid-cols-2 my-10 gap-x-[6.625rem]">
-        <div className=" font-body text-base font-normal text-primary flex flex-col align-center justify-center">
-          <div className="leading-8 mt-8 ">
+      <div className={classes["about__container"]}>
+        <div className={classes["about__text__box"]}>
+          <div className={classes["about__text"]}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               posuere lacus eget nisl est viverra aenean. Viverra et tellus ac
@@ -32,21 +29,16 @@ const AboutSection = () => {
               vulputate vulputate pulvinar nisi. Faucibus id arcu quis ac.
             </p>
           </div>
-          <div className="mt-11 w-[11.375rem] text-center bg-primary px-4 py-3 rounded-md">
-            <a href="/" className="mt-11 no-underline text-white uppercase  ">
-              Download cv
-            </a>
-          </div>
+          <button className={classes["btn"]}>Download cv</button>
         </div>
-        <div className="rounded-md overflow-hidden ">
-          <img
-            src="./img/img-1.png"
-            alt="Profile Picture"
-            className="w-[100%]"
-          />
-        </div>
+
+        <img
+          src="./img/img-1.png"
+          alt="Profile Picture"
+          className={classes["image__container"]}
+        />
       </div>
-    </Layout>
+    </section>
   );
 };
 
