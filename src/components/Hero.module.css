@@ -3,11 +3,11 @@
 }
 
 .img__left {
-  @apply absolute top-0 left-[0%] w-[8.75rem] sm:w-[8.5rem] md:w-[9.5rem] xl:w-auto;
+  @apply absolute top-0 left-[0%] w-[8.75rem] sm:w-[8.5rem] md:w-[9.5rem] xl:w-auto animate-moveInLeft;
 }
 
 .img__right {
-  @apply absolute bottom-0 right-[0%] w-[8.75rem] sm:w-[10.5rem] md:w-[9.5rem] xl:w-auto;
+  @apply absolute bottom-0 right-[0%] w-[8.75rem] sm:w-[10.5rem] md:w-[9.5rem] xl:w-auto animate-moveInRight;
 }
 
 .hero__text__box {
@@ -27,5 +27,5 @@
 }
 
 .btn {
-  @apply font-normal text-sm md:text-base  font-body  m-8 rounded-md  bg-primary text-white uppercase border-none px-3 py-2  md:px-4 md:py-3;
+  @apply z-10 inline-block cursor-pointer font-normal text-sm md:text-base  font-body  m-8 rounded-md  bg-primary text-white uppercase border-none px-3 py-2  md:px-4 md:py-3 hover:-translate-y-6;
 }

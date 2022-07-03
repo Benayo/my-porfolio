@@ -24,8 +24,27 @@ module.exports = {
     },
 
     backgroundImage: {
-      'profile--image': "url('/img/img-1.png')"
-    }
+      "profile--image": "url('/img/img-1.png')",
+    },
+
+    keyframes: {
+      moveInLeft: {
+        "0%": { transform: "translateX(-100px)", opacity: 0 },
+        "80%": { transform: "translateX(10px)" },
+        "100%": { transform: "translate(0)", opacity: 1 },
+      },
+
+      moveInRight: {
+        "0%": { transform: "translateX(100px)", opacity: 0 },
+        "80%": { transform: "translateX(-10px)" },
+        "100%": { transform: "translate(0)", opacity: 1 },
+      },
+    },
+
+    animation: {
+      moveInLeft: "moveInLeft 1s ease-out",
+      moveInRight: "moveInRight 1s ease-out",
+    },
   },
   plugins: [],
 };

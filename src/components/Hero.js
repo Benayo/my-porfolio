@@ -1,6 +1,8 @@
 // import Button from "../UI/Button";
 import classes from "./Hero.module.css";
 
+
+
 const Hero = () => {
   return (
     <div className={classes["hero__section"]}>
@@ -32,7 +34,7 @@ const Hero = () => {
           and visual development.
         </div>
 
-        <button className={classes["btn"]}>Connect with me</button>
+        <button className={classes["btn"]}>connect with me</button>
       </div>
 
       <img

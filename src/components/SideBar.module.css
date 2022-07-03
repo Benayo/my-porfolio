@@ -1,0 +1,19 @@
+.nav__bar {
+  @apply flex justify-between items-center;
+}
+
+.logo__box {
+  @apply flex items-baseline;
+}
+
+.nav__link {
+  @apply flex flex-col mx-4 my-8 text-list list-none font-body font-medium p-0;
+}
+
+li {
+  @apply my-4 font-body;
+}
+
+.logo__cancel__nav {
+  @apply flex  justify-between items-center m-4;
+}

@@ -26,7 +26,7 @@
 }
 
 .btn {
-  @apply md:w-fit font-normal font-body  mt-11 rounded-md  bg-primary text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3;
+  @apply cursor-pointer md:w-fit font-normal font-body  mt-11 rounded-md  bg-primary text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3 hover:-translate-y-6;
 }
 
 .image__container {
