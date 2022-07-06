@@ -1,5 +1,5 @@
 .container {
-  @apply mx-[1rem] pt-8 font-body relative md:mx-[6.25rem];
+  @apply mx-[1rem] pt-8 font-body relative md:mx-[6.25rem] ;
 }
 
 .header__text {

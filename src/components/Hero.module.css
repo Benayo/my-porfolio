@@ -34,5 +34,5 @@
 }
 
 .btn:hover {
-  @apply animate-animatePing bg-tertiary-200;
+  @apply md:animate-animatePing md:bg-tertiary-200;
 }

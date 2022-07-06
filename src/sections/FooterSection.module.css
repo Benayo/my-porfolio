@@ -27,7 +27,7 @@
 }
 
 .btn:hover {
-  @apply animate-animatePing bg-tertiary-200 shadow-2xl;
+  @apply md:animate-animatePing md:bg-tertiary-200 md:shadow-2xl;
 }
 
 input {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .contact__link {
-  @apply flex items-center mb-11 text-white no-underline hover:animate-animatePing;
+  @apply flex items-center mb-11 text-white no-underline md:hover:animate-animatePing;
 }
 
 .contact__link__svg {
@@ -54,7 +54,7 @@ textarea {
 }
 
 .contact__link__img:hover {
-  @apply animate-animatePing;
+  @apply md:animate-animatePing;
 }
 
 .contact__link__text {

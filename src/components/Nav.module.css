@@ -19,7 +19,7 @@
 }
 
 li a {
-  @apply no-underline  font-semibold p-2  text-secondary-200 mr-[3.75rem] hover:text-secondary-100 px-4 transition duration-150 hover:border-solid  border-b-2 border-y-0 border-x-0 border-secondary-100;
+  @apply no-underline  font-semibold p-2  text-secondary-200 mr-[3.75rem] md:hover:text-secondary-100 px-4 transition duration-150 md:hover:border-solid  border-b-2 border-y-0 border-x-0 border-secondary-100;
 }
 
 .menu {

@@ -30,11 +30,11 @@
 }
 
 .btn {
-  @apply cursor-pointer md:w-fit font-normal font-body hover:-translate-y-0.5 transform mt-11 rounded-md  bg-tertiary-100 text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3  shadow-xl;
+  @apply cursor-pointer md:w-fit font-normal font-body md:hover:-translate-y-0.5 transform mt-11 rounded-md  bg-tertiary-100 text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3  shadow-xl;
 }
 
 .btn:hover {
-  @apply animate-animatePing bg-tertiary-200 shadow-2xl;
+  @apply md:animate-animatePing md:bg-tertiary-200 shadow-2xl;
 }
 
 .image__container {
