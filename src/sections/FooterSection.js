@@ -13,7 +13,7 @@ const FooterSection = () => {
         <div className={classes["grid__container"]}>
           <form
             target="_blank"
-            action="https:formsubmit.co/benjaminodeleye1@gmail.com"
+            action="https://formspree.io/f/mdobrgwe"
             method="POST"
           >
             <input type="text" name="text" required placeholder="Full Name" />
