@@ -41,7 +41,15 @@ const AboutSection = () => {
               products, brands and digital experience for the future.
             </p>
           </div>
-          <button className={classes["btn"]}>Download cv</button>
+          <div className={classes["btn"]}>
+            <a
+              className="no-underline text-secondary-100"
+              target="_blank"
+              href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
+            >
+              Download cv
+            </a>
+          </div>
         </div>
 
         <img
