@@ -18,11 +18,11 @@ const WorkSection = () => {
             />
 
             <div className={classes["work__text"]}>
-              <span className="block font-semibold text-primary text-sm py-2">
+              <span className={classes["work__text__span"]}>
                 Food ordering app
               </span>
               A mobile application that combines various dishes and drinks in
-              order to increase level of sales and ensure the convenience of the
+              order to increase level of sales and ensure the convenience of
               choice for users.
             </div>
           </div>
@@ -34,11 +34,11 @@ const WorkSection = () => {
             />
 
             <div className={classes["work__text"]}>
-              <span className="block font-semibold text-primary text-sm py-2">
+              <span className={classes["work__text__span"]}>
                 Academy Dashboard
               </span>
-              A platform that provides a daily overview for students and
-              teachers, great for long-term anaylsis and a high level
+              A platform that provides daily overview for students and
+              teachers, great for long-term anaylsis and high level
               understanding of behaviour.
             </div>
           </div>
@@ -50,11 +50,11 @@ const WorkSection = () => {
             />
 
             <span className={classes["work__text"]}>
-              <span className="block font-semibold text-primary text-sm py-2">
+              <span className={classes["work__text__span"]}>
                 Watch store app
               </span>
               An application that allows users see varieties, descriptions,
-              ratings,reviews, release note of watches and make purchasesat
+              ratings, reviews, release note of watches and make purchases at
               their convenience.
             </span>
           </div>

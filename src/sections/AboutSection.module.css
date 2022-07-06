@@ -22,7 +22,7 @@
 }
 
 .about__text p {
-  @apply text-xs lg:text-sm leading-6 lg:leading-8;
+  @apply text-xs font-light text-secondary-200 lg:text-sm leading-6 lg:leading-8;
 }
 
 .inline__text {

@@ -1,5 +1,5 @@
 .container__main {
-  @apply  pb-11 md:pb-[3.75rem] font-body;
+  @apply pb-11 md:pb-[3.75rem] font-body;
 }
 
 .container__sub {
@@ -27,7 +27,11 @@
 }
 
 .work__text {
-  @apply text-sm leading-7 text-secondary-100 block;
+  @apply text-xs font-light leading-7 text-secondary-200 block;
+}
+
+.work__text__span {
+  @apply block font-semibold text-secondary-100 text-sm py-2;
 }
 
 .btn {
