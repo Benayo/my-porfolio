@@ -16,9 +16,11 @@ const AboutSection = () => {
               frontend developer which I enjoy doing by building, developing and
               bringing products to life on the internet. My interest in web
               development started back in 2020 when I decided to take a dive
-              into product design and frontend developement in{" "}
+              into product design and frontend developement at{" "}
               <a
+                target="_blank"
                 href="http://www.univelcity.com"
+                rel="noopener noreferrer"
                 className={classes["inline__text"]}
               >
                 univelcity
@@ -27,7 +29,9 @@ const AboutSection = () => {
               prototyped mobile real estate app. Since then, I have been working
               at my current role as a product designer at{" "}
               <a
-                href="http://Jand2gidiWorldwide.com"
+                href="https://jand2gidi.com.ng"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={classes["inline__text"]}
               >
                 Jand2gidi Worldwide
@@ -45,6 +49,7 @@ const AboutSection = () => {
           <a
             className={classes["btn"]}
             target="_blank"
+            rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
           >
             Download cv
