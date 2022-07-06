@@ -12,28 +12,40 @@ const AboutSection = () => {
         <div className={classes["about__text__box"]}>
           <div className={classes["about__text"]}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              posuere lacus eget nisl est viverra aenean. Viverra et tellus ac
-              potenti aliquet eu ac eu, nunc. Sit accumsan imperdiet faucibus
-              nec, ultrices tortor, pharetra. Tristique dui cursus nisl egestas
-              quam ornare sem. Mattis nunc vitae nec vel. Elit, orci, et in enim
-              viverra fringilla viverra molestie. Rutrum enim amet facilisi amet
-              sit at. Lacus leo mattis sodales eu.
+              I'm Benjamin Odeleye, a passionate product designer and a frontend
+              developer which I enjoy doing by building, developing and bringing
+              products to life on the internet. My interest in web development
+              started back in 2020 when I decided to take a dive into product
+              design and frontend developement in{" "}
+              <a
+                href="http://www.univelcity.com"
+                className={classes["inline__text"]}
+              >
+                univelcity
+              </a>{" "}
+              where I collaborated with team memebers to produce a fully
+              prototyped mobile real estate app. Since then, I have been working
+              at my current role a product designer at{" "}
+              <a
+                href="http://Jand2gidiWorldwide.com"
+                className={classes["inline__text"]}
+              >
+                Jand2gidi Worldwide
+              </a>{" "}
             </p>
             <p>
-              Elit quis euismod volutpat facilisis nunc ut gravida. Adipiscing
-              elit eget eget in dui. Donec et ac sagittis sit ut. Tristique
-              vitae tincidunt lobortis facilisi duis semper lectus. Pulvinar
-              eget amet sed bibendum eu suspendisse tempor, massa vitae. Viverra
-              tempor, vitae enim in lorem quisque tempus dignissim quis. A
-              vulputate vulputate pulvinar nisi. Faucibus id arcu quis ac.
+              I also possess coding abilities in HTML, CSS, Javascript and React
+              Js which makes me an excellent team member assisting frontend and
+              backend developer in acheiving users requirements. My major focus
+              these days have geared towards building accessible inclusive
+              products, brands and digital experience for the future.
             </p>
           </div>
           <button className={classes["btn"]}>Download cv</button>
         </div>
 
         <img
-          src="./img/img-1.png"
+          src="./img/profileMain.jpg"
           alt="Profile Picture"
           className={classes["image__container"]}
         />

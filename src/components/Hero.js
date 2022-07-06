@@ -1,7 +1,6 @@
-// import Button from "../UI/Button";
+import { HashLink as Link } from "react-router-hash-link";
+
 import classes from "./Hero.module.css";
-
-
 
 const Hero = () => {
   return (
@@ -17,24 +16,36 @@ const Hero = () => {
 
         <h1 className={classes["hero__text__main"]}>
           Building digital
-          <span className="block"> products, brands, and </span>
-          experience.
+          <span className="block"> products and brands </span>
+          for the future
         </h1>
 
         <div className={classes["hero__text__sub"]}>
-          a <span className="font-semibold text-primary">Product Designer</span>{" "}
+          a{" "}
+          <span className={classes["hero__text__sub--bold"]}>
+            {" "}
+            Product Designer
+          </span>{" "}
           and{" "}
-          <span className="font-semibold text-primary ">
+          <span className={classes["hero__text__sub--bold"]}>
             Frontend Developer
           </span>
-          . I{" "}
+          . I
           <span className="block">
             specialize in UI/UX Design, Responsive Web Design,
           </span>
           and visual development.
         </div>
 
-        <button className={classes["btn"]}>connect with me</button>
+        <div className={classes["btn"]}>
+          <Link
+            className="font-normal text-[0.5rem] md:text-base cursor-pointer  no-underline text-white "
+            to="#contact"
+            smooth
+          >
+            connect with me
+          </Link>
+        </div>
       </div>
 
       <img

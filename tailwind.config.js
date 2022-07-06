@@ -15,10 +15,14 @@ module.exports = {
       },
 
       colors: {
-        primary: "rgba(32, 30, 30, 1)",
+        primary: "#15202B",
         secondary: {
-          100: "rgba(32, 30, 30, 0.75)",
-          200: "#f7f7f7",
+          100: "#ffffff",
+          200: "rgba(247, 247, 247, 0.75)",
+        },
+        tertiary: {
+          100: "#1DA1F2",
+          200: "rgba(29, 161, 242, 0.75)",
         },
       },
     },
@@ -39,11 +43,22 @@ module.exports = {
         "80%": { transform: "translateX(-10px)" },
         "100%": { transform: "translate(0)", opacity: 1 },
       },
+
+      moveInBottom: {
+        "0%": { transform: "translateY(3rem)", opacity: 0 },
+        "100%": { transform: "translate(0)", opacity: 1 },
+      },
+
+      ping: {
+        "75%, 100%": { transform: "scale(1.1)", opacity: 1 },
+      },
     },
 
     animation: {
       moveInLeft: "moveInLeft 1s ease-out",
       moveInRight: "moveInRight 1s ease-out",
+      moveInBottom: "moveInBottom 1.5s ease-in backwards",
+      animatePing: "ping 3s cubic-bezier(0, 0, 0.2, 1)",
     },
   },
   plugins: [],

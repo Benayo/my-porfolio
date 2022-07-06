@@ -1,7 +1,7 @@
 import classes from "./ResumeSection.module.css";
 const ResumeSection = () => {
   return (
-    <section id="resume" className="bg-secondary-200 py-11 relative">
+    <section id="resume" className={classes.section}>
       <div className={classes["label__box"]}>
         <img src="./img/design4.png" alt="dots" className={classes.image} />
 

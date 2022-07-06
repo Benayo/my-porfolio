@@ -6,10 +6,22 @@
   @apply flex items-baseline;
 }
 
+.logo__text {
+  @apply font-logo text-5xl font-normal cursor-pointer  no-underline text-secondary-100;
+}
+
+.logo__circle {
+  @apply w-4 h-4 bg-tertiary-100 rounded-full;
+}
+
 .nav__link {
-  @apply hidden md:text-list md:list-none md:font-body md:font-medium md:opacity-75 md:flex ;
+  @apply hidden md:text-list md:list-none md:font-body md:font-medium md:opacity-75 md:flex text-center items-center border;
 }
 
 li a {
-  @apply no-underline text-primary   pr-[3.75rem] hover:font-semibold transition ease-out duration-500;
+  @apply no-underline  font-semibold p-2  text-secondary-200 mr-[3.75rem] hover:text-secondary-100 px-4 transition duration-150 hover:border-solid  border-b-2 border-y-0 border-x-0 border-secondary-100;
+}
+
+.menu {
+  @apply h-6 w-6  md:hidden cursor-pointer text-secondary-100;
 }

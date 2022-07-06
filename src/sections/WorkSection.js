@@ -17,11 +17,14 @@ const WorkSection = () => {
               className={classes["work__img"]}
             />
 
-            <span className={classes["work__text"]}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
-              mauris arcu integer venenatis nunc. Sit vulputate nulla neque
-              cursus vitae.
-            </span>
+            <div className={classes["work__text"]}>
+              <span className="block font-semibold text-primary text-sm py-2">
+                Food ordering app
+              </span>
+              A mobile application that combines various dishes and drinks in
+              order to increase level of sales and ensure the convenience of the
+              choice for users.
+            </div>
           </div>
           <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
             <img
@@ -30,11 +33,14 @@ const WorkSection = () => {
               className={classes["work__img"]}
             />
 
-            <span className={classes["work__text"]}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
-              mauris arcu integer venenatis nunc. Sit vulputate nulla neque
-              cursus vitae.
-            </span>
+            <div className={classes["work__text"]}>
+              <span className="block font-semibold text-primary text-sm py-2">
+                Academy Dashboard
+              </span>
+              A platform that provides a daily overview for students and
+              teachers, great for long-term anaylsis and a high level
+              understanding of behaviour
+            </div>
           </div>
           <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
             <img
@@ -44,20 +50,26 @@ const WorkSection = () => {
             />
 
             <span className={classes["work__text"]}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
-              mauris arcu integer venenatis nunc. Sit vulputate nulla neque
-              cursus vitae.
+              <span className="block font-semibold text-primary text-sm py-2">
+                Watch store app
+              </span>
+              An application that allows users see varieties, descriptions,
+              ratings,reviews, release note of watches and make purchasesat
+              their convenience
             </span>
           </div>
         </div>
 
-        {/* <div className=" mt-[3.75rem] w-fit text-center bg-primary px-4 py-3 rounded-md ">
-          <a href="/" className="mt-11 no-underline text-white uppercase  ">
-            @BENAYO ON BEHANCE
+        <button className={classes.btn}>
+          <a
+            className="no-underline text-white"
+            target="_blank"
+            href="https://www.behance.net/benayo"
+            rel="noopener noreferrer"
+          >
+            @BENAYO on behance
           </a>
-        </div> */}
-
-        <button className={classes.btn}>@BENAYO on behance</button>
+        </button>
       </div>
     </section>
   );

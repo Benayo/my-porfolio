@@ -8,13 +8,10 @@ const Nav = (props) => {
       <nav>
         <div className={classes["nav__bar"]}>
           <div className={classes["logo__box"]}>
-            <Link
-              className="font-logo text-5xl font-normal cursor-pointer  no-underline text-primary "
-              to="#home"
-            >
+            <Link className={classes["logo__text"]} to="#home">
               BA
             </Link>
-            <div className="w-4 h-4 bg-primary rounded-full "></div>
+            <div className={classes["logo__circle"]}></div>
           </div>
 
           <ul className={classes["nav__link"]}>
@@ -42,7 +39,7 @@ const Nav = (props) => {
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6  md:hidden cursor-pointer"
+            className={classes.menu}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

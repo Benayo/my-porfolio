@@ -25,6 +25,11 @@ const FooterSection = () => {
               placeholder="Email Address"
             />
             <input type="numeric" name="numeric" placeholder="Phone Number" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://localhost:3000/#thankyou.html"
+            />
             <textarea
               name="message"
               id="textarea"
@@ -39,7 +44,10 @@ const FooterSection = () => {
 
           <div>
             <div className={classes["contact__link__container"]}>
-              <address className={classes["contact__link"]}>
+              <a
+                href="mailto:Benjaminodeleye1@gmail.com?subject=feedback"
+                className={classes["contact__link"]}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className={classes["contact__link__svg"]}
@@ -51,118 +59,76 @@ const FooterSection = () => {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
+                </svg>
+                <span className={classes["contact__link__text"]}>
+                  benjaminodeleye1@gmail.com
+                </span>
+              </a>
+
+              <a
+                href="tel:+234-818-343-7774"
+                className={classes["contact__link"]}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className={classes["contact__link__svg"]}
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>Ilupeju, Lagos</span>
-              </address>
 
-              <div className={classes["contact__link"]}>
-                <a href="mailto:Benjaminodeleye1@gmail.com?subject=feedback">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className={classes["contact__link__svg"]}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                </a>
-                <span>benjaminodeleye1@gmail.com</span>
-              </div>
-              <div className={classes["contact__link"]}>
-                <a href="tel:+234-818-343-7774">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className={classes["contact__link__svg"]}
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                </a>
+                <span className={classes["contact__link__text"]}>
+                  +234-818-343-7774
+                </span>
+              </a>
 
-                <span>+234-818-343-7774</span>
-              </div>
-            </div>
-            <div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/tg308"
+                href="https://www.github.com/benayo"
+                className={classes["contact__link"]}
               >
                 <img
                   src="./img/git.png"
+                  className={classes["contact__link__svg"]}
                   alt=""
-                  className={classes["contact__link__img"]}
                 />
+
+                <span className={classes["contact__link__text"]}>
+                  github.com/benayo
+                </span>
               </a>
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/tg308"
-              >
-                <img
-                  src="./img/facebook.png"
-                  alt=""
-                  className={classes["contact__link__img"]}
-                />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/tg308"
-              >
-                <img
-                  src="./img/instagram.png"
-                  alt=""
-                  className={classes["contact__link__img"]}
-                />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/tg308"
-              >
-                <img
-                  src="./img/twitter.png"
-                  alt=""
-                  className={classes["contact__link__img"]}
-                />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/tg308"
+                href="https://www.linkedin.com/in/odeleye-benjamin-4815a225"
+                className={classes["contact__link"]}
               >
                 <img
                   src="./img/linkedin.png"
                   alt=""
-                  className={classes["contact__link__img"]}
+                  className={classes["contact__link__svg"]}
                 />
+
+                <span className={classes["contact__link__text"]}>
+                  linkedIn.com/in/odeleye-benjamin-4815a225
+                </span>
               </a>
             </div>
           </div>
         </div>
 
-        <div className="my-24 flex  justify-center items-center">
+        <div className="py-0 sm:py-12 lg:py-24 flex  justify-center items-center">
           <span className="w-0 xl:w-[37%] h-[0.0625rem] bg-white mr-10"></span>
           <div>
             <span className="text-white font-body text-xs inline">

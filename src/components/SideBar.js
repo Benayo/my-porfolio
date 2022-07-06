@@ -4,22 +4,22 @@ import classes from "./SideBar.module.css";
 
 const SideBar = (props) => {
   return (
-    <aside>
+    <aside className={classes.container}>
       <div className={classes["logo__cancel__nav"]}>
         <div className={classes["logo__box"]}>
           <Link
-            className="font-logo text-3xl font-normal cursor-pointer  no-underline text-primary "
+            className={classes["logo__text"]}
             to="#home"
             onClick={props.onCancel}
           >
             BA
           </Link>
-          <div className="w-2 h-2 bg-primary rounded-full "></div>
+          <div className={classes["logo__circle"]}></div>
         </div>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 cursor-pointer"
+            className={classes.cancel}
             onClick={props.onCancel}
             fill="none"
             viewBox="0 0 24 24"

@@ -1,31 +1,38 @@
 .hero__section {
-  @apply mt-11  p-16 max-h-[100vh] relative font-body flex justify-center items-center md:mt-[3.75rem];
+  @apply mt-11 p-4 sm:p-8 md:p-16 max-h-[100vh] relative font-body flex justify-center items-center md:mt-[3.75rem];
 }
 
 .img__left {
-  @apply absolute top-0 left-[0%] w-[8.75rem] sm:w-[8.5rem] md:w-[9.5rem] xl:w-auto animate-moveInLeft;
+  @apply absolute top-0 left-[0%] w-[5.75rem] sm:w-[8.5rem] md:w-[9.5rem] xl:w-auto animate-moveInLeft;
 }
 
 .img__right {
-  @apply absolute bottom-0 right-[0%] w-[8.75rem] sm:w-[10.5rem] md:w-[9.5rem] xl:w-auto animate-moveInRight;
+  @apply absolute bottom-0 right-[0%]  w-[5.75rem] sm:w-[10.5rem] md:w-[9.5rem] xl:w-auto animate-moveInRight;
 }
 
 .hero__text__box {
-  @apply flex flex-col items-center justify-center;
+  @apply flex flex-col items-center justify-center animate-moveInBottom mt-10 md:mt-0;
 }
 
 .hero__text__one {
-  @apply font-semibold text-sm md:text-xl lg:text-2xl;
+  @apply font-normal text-secondary-200 text-xs sm:text-sm md:text-base lg:text-xl;
 }
 
 .hero__text__main {
-  @apply font-hero m-4 font-bold text-center text-[2rem] sm:text-4xl md:text-5xl lg:text-[3.375rem] xl:text-[4rem] md:m-8;
+  @apply font-hero text-secondary-100  m-2 sm:m-4 font-semibold text-center  text-[1.7rem] sm:text-4xl md:text-5xl lg:text-[3.375rem] xl:text-[3.6rem] md:m-8;
 }
 
 .hero__text__sub {
-  @apply font-medium text-secondary-100 text-center text-xs md:text-base lg:text-xl;
+  @apply font-light  text-secondary-200 text-center text-[0.5rem] sm:text-xs md:text-xl;
 }
 
+.hero__text__sub--bold {
+  @apply font-medium   text-secondary-100;
+}
 .btn {
-  @apply z-10 inline-block cursor-pointer font-normal text-sm md:text-base  font-body  m-8 rounded-md  bg-primary text-white uppercase border-none px-3 py-2  md:px-4 md:py-3 hover:-translate-y-6;
+  @apply z-10 inline-block cursor-pointer font-normal text-[0.5rem] md:text-base  font-body m-4  sm:m-8 rounded-md  bg-tertiary-100 text-white uppercase border-none px-3 py-2  md:px-4 md:py-3  shadow-xl;
+}
+
+.btn:hover {
+  @apply animate-animatePing bg-tertiary-200;
 }

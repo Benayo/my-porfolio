@@ -1,3 +1,7 @@
+.container {
+  @apply bg-primary min-h-screen p-4 m-0;
+}
+
 .nav__bar {
   @apply flex justify-between items-center;
 }
@@ -6,8 +10,20 @@
   @apply flex items-baseline;
 }
 
+.logo__text {
+  @apply font-logo text-3xl font-normal cursor-pointer  no-underline text-secondary-100;
+}
+
+.logo__circle {
+  @apply w-2 h-2 bg-tertiary-100 rounded-full;
+}
+
+.cancel {
+  @apply h-6 w-6 cursor-pointer text-secondary-100;
+}
+
 .nav__link {
-  @apply flex flex-col mx-4 my-8 text-list list-none font-body font-medium p-0;
+  @apply flex flex-col my-8 text-list list-none font-body font-medium p-0;
 }
 
 li {

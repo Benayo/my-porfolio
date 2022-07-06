@@ -1,9 +1,9 @@
 .main__container {
-  @apply p-4 bg-black font-body;
+  @apply py-2  px-0 font-body;
 }
 
 .container {
-  @apply mx-[1rem] my-[4rem] font-body  md:mx-[6.25rem];
+  @apply mx-[1rem] my-[4rem] font-body  lg:mx-[6.25rem]  px-0;
 }
 
 .label {
@@ -11,26 +11,30 @@
 }
 
 .label__main {
-  @apply text-white  font-hero  font-bold  text-2xl md:text-4xl xl:text-[2.75rem] mb-4;
+  @apply text-white  font-hero  font-bold  text-base  md:text-3xl lg:text-4xl xl:text-[2.75rem] mb-4;
 }
 
 .label__sub {
-  @apply text-white font-hero font-normal text-xs md:text-base xl:text-xl;
+  @apply text-white font-hero font-normal text-xs md:text-sm lg:text-base xl:text-xl md:pt-2;
 }
 
 .grid__container {
-  @apply grid  md:grid-cols-2 gap-y-16 md:gap-y-0 gap-x-[6.625rem];
+  @apply grid  md:grid-cols-2 gap-y-16 md:gap-y-0 md:gap-x-[4.625rem] lg:gap-x-[10.625rem];
 }
 
 .btn {
-  @apply  w-full cursor-pointer   font-normal font-body mt-2 md:mt-2  rounded-md   bg-[#828282]  text-primary uppercase border-none px-4 py-2.5  lg:px-8 md:py-3;
+  @apply w-full cursor-pointer   font-normal font-body mt-2 md:mt-2  rounded-md   bg-tertiary-100 shadow-xl  text-secondary-100 uppercase border-none px-4 py-2.5  lg:px-8 md:py-3;
+}
+
+.btn:hover {
+  @apply animate-animatePing bg-tertiary-200 shadow-2xl;
 }
 
 input {
-  @apply w-full h-8 p-0 appearance-none placeholder:p-0.5  shadow rounded-md z-10 border-none py-2 px-2 mb-6  outline-none;
+  @apply w-full h-8 p-0 appearance-none placeholder:px-2  shadow rounded-md z-10 border-none py-2 px-0 mb-6  outline-none;
 }
 textarea {
-  @apply w-full placeholder:p-2  font-body  appearance-none shadow rounded-md border-none p-0 py-2 px-2 mb-6 outline-none;
+  @apply w-full placeholder:px-2  font-body  appearance-none shadow rounded-md border-none py-2 px-0 mb-6 outline-none;
 }
 
 .contact__link__container {
@@ -38,7 +42,7 @@ textarea {
 }
 
 .contact__link {
-  @apply flex items-center mb-11 text-white;
+  @apply flex items-center mb-11 text-white no-underline hover:animate-animatePing;
 }
 
 .contact__link__svg {
@@ -47,4 +51,12 @@ textarea {
 
 .contact__link__img {
   @apply w-8 mr-11;
+}
+
+.contact__link__img:hover {
+  @apply animate-animatePing;
+}
+
+.contact__link__text {
+  @apply text-xs lg:text-base;
 }
