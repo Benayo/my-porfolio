@@ -39,7 +39,7 @@ const WorkSection = () => {
               </span>
               A platform that provides a daily overview for students and
               teachers, great for long-term anaylsis and a high level
-              understanding of behaviour
+              understanding of behaviour.
             </div>
           </div>
           <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
@@ -55,21 +55,19 @@ const WorkSection = () => {
               </span>
               An application that allows users see varieties, descriptions,
               ratings,reviews, release note of watches and make purchasesat
-              their convenience
+              their convenience.
             </span>
           </div>
         </div>
 
-        <button className={classes.btn}>
-          <a
-            className="no-underline text-white"
-            target="_blank"
-            href="https://www.behance.net/benayo"
-            rel="noopener noreferrer"
-          >
-            @BENAYO on behance
-          </a>
-        </button>
+        <a
+          className={classes.btn}
+          target="_blank"
+          href="https://www.behance.net/benayo"
+          rel="noopener noreferrer"
+        >
+          @BENAYO on behance
+        </a>
       </div>
     </section>
   );

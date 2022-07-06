@@ -23,7 +23,7 @@
 }
 
 .btn {
-  @apply w-full cursor-pointer   font-normal font-body mt-2 md:mt-2  rounded-md   bg-tertiary-100 shadow-xl  text-secondary-100 uppercase border-none px-4 py-2.5  lg:px-8 md:py-3;
+  @apply w-full cursor-pointer   font-normal font-body mt-2 md:mt-2  rounded-md   bg-tertiary-100 shadow-xl  text-secondary-100 uppercase border-none px-4 py-2.5  lg:px-8 md:py-3 hover:-translate-y-0.5 transform;
 }
 
 .btn:hover {
@@ -31,7 +31,7 @@
 }
 
 input {
-  @apply w-full h-8 p-0 appearance-none placeholder:px-2  shadow rounded-md z-10 border-none py-2 px-0 mb-6  outline-none;
+  @apply px-0 w-full h-8 p-0 appearance-none placeholder:px-2  shadow rounded-md z-10 border-none py-2  mb-6  outline-none;
 }
 textarea {
   @apply w-full placeholder:px-2  font-body  appearance-none shadow rounded-md border-none py-2 px-0 mb-6 outline-none;
@@ -54,7 +54,7 @@ textarea {
 }
 
 .contact__link__img:hover {
-  @apply md:animate-animatePing;
+  @apply animate-animatePing;
 }
 
 .contact__link__text {

@@ -12,11 +12,11 @@ const AboutSection = () => {
         <div className={classes["about__text__box"]}>
           <div className={classes["about__text"]}>
             <p>
-              I'm Benjamin Odeleye, a passionate product designer and a frontend
-              developer which I enjoy doing by building, developing and bringing
-              products to life on the internet. My interest in web development
-              started back in 2020 when I decided to take a dive into product
-              design and frontend developement in{" "}
+              I am Benjamin Odeleye, a passionate product designer and a
+              frontend developer which I enjoy doing by building, developing and
+              bringing products to life on the internet. My interest in web
+              development started back in 2020 when I decided to take a dive
+              into product design and frontend developement in{" "}
               <a
                 href="http://www.univelcity.com"
                 className={classes["inline__text"]}
@@ -25,7 +25,7 @@ const AboutSection = () => {
               </a>{" "}
               where I collaborated with team memebers to produce a fully
               prototyped mobile real estate app. Since then, I have been working
-              at my current role a product designer at{" "}
+              at my current role as a product designer at{" "}
               <a
                 href="http://Jand2gidiWorldwide.com"
                 className={classes["inline__text"]}
@@ -36,20 +36,19 @@ const AboutSection = () => {
             <p>
               I also possess coding abilities in HTML, CSS, Javascript and React
               Js which makes me an excellent team member assisting frontend and
-              backend developer in acheiving users requirements. My major focus
-              these days have geared towards building accessible inclusive
-              products, brands and digital experience for the future.
+              backend developer in acheiving users requirements. My focus
+              currently is geared towards building accessible inclusive users
+              friendly products, brands and digital experience for a sustainable
+              user experience in foreseeable future.
             </p>
           </div>
-          <div className={classes["btn"]}>
-            <a
-              className="no-underline text-secondary-100 text-center"
-              target="_blank"
-              href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
-            >
-              Download cv
-            </a>
-          </div>
+          <a
+            className={classes["btn"]}
+            target="_blank"
+            href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
+          >
+            Download cv
+          </a>
         </div>
 
         <img

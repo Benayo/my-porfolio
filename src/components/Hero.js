@@ -37,15 +37,9 @@ const Hero = () => {
           and visual development.
         </div>
 
-        <div className={classes["btn"]}>
-          <Link
-            className="font-normal text-[0.5rem] md:text-base cursor-pointer  no-underline text-white "
-            to="#contact"
-            smooth
-          >
-            connect with me
-          </Link>
-        </div>
+        <Link className={classes["btn"]} to="#contact" smooth>
+          connect with me
+        </Link>
       </div>
 
       <img

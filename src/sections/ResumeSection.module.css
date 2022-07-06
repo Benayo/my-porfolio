@@ -1,5 +1,5 @@
 .section {
-  @apply py-11 relative;
+  @apply py-6 relative;
 }
 
 .container {
@@ -39,7 +39,7 @@
 }
 
 .resume__heading__sub {
-  @apply text-sm md:text-xl xl:text-2xl  font-medium mb-8;
+  @apply text-sm  md:text-xl  font-normal mb-8;
 }
 
 .resume__text__box {
@@ -47,7 +47,7 @@
 }
 
 .resume__text__main {
-  @apply text-sm md:text-base font-medium;
+  @apply text-xs md:text-sm font-medium text-secondary-200;
 }
 
 .resume__text__main--1 {
@@ -55,7 +55,7 @@
 }
 
 .resume__text__sub {
-  @apply text-xs leading-6  md:text-sm md:leading-8 text-secondary-200;
+  @apply text-xs leading-6  md:text-sm md:leading-8 text-secondary-200 font-light;
 }
 
 .resume__grid__container__sub {
@@ -63,7 +63,7 @@
 }
 
 .resume__list {
-  @apply text-xs mb-4 md:text-base  text-secondary-200 font-medium;
+  @apply text-xs mb-4 md:text-sm  text-secondary-200  font-light;
 }
 
 .resume__text {

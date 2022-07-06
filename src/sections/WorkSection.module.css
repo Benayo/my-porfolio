@@ -1,9 +1,9 @@
 .container__main {
-  @apply pt-8 pb-11 md:pb-[3.75rem] font-body;
+  @apply  pb-11 md:pb-[3.75rem] font-body;
 }
 
 .container__sub {
-  @apply mx-[1rem] my-[2rem] font-body relative md:mx-[6.25rem];
+  @apply mx-[1rem] font-body relative md:mx-[6.25rem];
 }
 
 .label__box {
@@ -15,7 +15,7 @@
 }
 
 .label__text {
-  @apply font-hero font-semibold text-secondary-100 text-base  md:text-3xl lg:text-4xl absolute top-[50%] m-1 lg:m-4;
+  @apply font-hero font-semibold text-secondary-100 text-base  md:text-3xl lg:text-4xl absolute top-[50%]  lg:m-2;
 }
 
 .grid__container {
@@ -31,9 +31,9 @@
 }
 
 .btn {
-  @apply block cursor-pointer w-full md:w-fit font-normal font-body mt-4 md:mt-[3.75rem] md:mx-auto rounded-md   bg-tertiary-100 text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3 shadow-xl;
+  @apply block cursor-pointer w-full md:w-fit font-normal font-body mt-4 md:mt-[3.75rem] md:mx-auto rounded-md   bg-tertiary-100 text-white uppercase border-none px-4 py-2.5  lg:px-8 md:py-3 shadow-xl hover:-translate-y-0.5 transform no-underline text-center;
 }
 
 .btn:hover {
-  @apply md:animate-animatePing md:bg-tertiary-200 md:shadow-2xl;
+  @apply animate-animatePing bg-tertiary-200 shadow-2xl;
 }

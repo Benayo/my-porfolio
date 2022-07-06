@@ -5,13 +5,13 @@ import classes from "./HeaderSection.module.css";
 
 const HeaderSection = (props) => {
   return (
-    <div>
+    <header>
       <div id="home" className={classes.container}>
         <Nav onClick={props.onClick} />
         <Hero />
         <div className={classes["header__text"]}>Hello There.</div>
       </div>
-    </div>
+    </header>
   );
 };
 

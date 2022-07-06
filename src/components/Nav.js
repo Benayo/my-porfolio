@@ -4,7 +4,7 @@ import classes from "./Nav.module.css";
 
 const Nav = (props) => {
   return (
-    <header>
+    <div>
       <nav>
         <div className={classes["nav__bar"]}>
           <div className={classes["logo__box"]}>
@@ -54,7 +54,7 @@ const Nav = (props) => {
           </svg>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 

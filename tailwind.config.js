@@ -60,7 +60,6 @@ module.exports = {
       moveInBottom: "moveInBottom 1.5s ease-in backwards",
       animatePing: "ping 3s cubic-bezier(0, 0, 0.2, 1)",
     },
-    
   },
   plugins: [],
 };
