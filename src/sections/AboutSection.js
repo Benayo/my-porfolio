@@ -43,7 +43,7 @@ const AboutSection = () => {
           </div>
           <div className={classes["btn"]}>
             <a
-              className="no-underline text-secondary-100"
+              className="no-underline text-secondary-100 text-center"
               target="_blank"
               href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
             >
