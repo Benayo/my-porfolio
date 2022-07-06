@@ -59,7 +59,7 @@
 }
 
 .resume__grid__container__sub {
-  @apply grid grid-cols-3 md:gap-x-24;
+  @apply grid grid-cols-3 md:gap-x-4;
 }
 
 .resume__list {
