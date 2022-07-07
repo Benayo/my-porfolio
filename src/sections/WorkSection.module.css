@@ -35,7 +35,7 @@
 }
 
 .btn {
-  @apply block cursor-pointer w-full md:w-fit font-normal font-body mt-4 md:mt-[3.75rem] md:mx-auto rounded-md   bg-tertiary-100 text-white uppercase border-none  py-2.5  lg:px-8 md:py-3 shadow-xl hover:-translate-y-0.5 transform no-underline text-center;
+  @apply block cursor-pointer w-full md:w-fit font-normal font-body mt-4 md:mt-[3.75rem] md:mx-auto rounded-md   bg-tertiary-100 text-white uppercase border-none  py-2.5  lg:px-8 md:py-3 shadow-xl hover:-translate-y-0.5 transform no-underline text-center text-sm md:text-base;
 }
 
 .btn:hover {
