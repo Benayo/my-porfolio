@@ -23,11 +23,11 @@ const AboutSection = () => {
                 rel="noopener noreferrer"
                 className={classes["inline__text"]}
               >
-                univelcity
+                univelcity bootcamp
               </a>{" "}
-              where I collaborated with team memebers to produce a fully
-              prototyped mobile real estate app. Since then, I have been working
-              at my current role as a product designer at{" "}
+              in Yaba, Lagos where I collaborated with team memebers to produce
+              a fully prototyped mobile real estate app. Since then, I have been
+              working at my current role as a product designer at{" "}
               <a
                 href="https://jand2gidi.com.ng"
                 target="_blank"
@@ -39,8 +39,8 @@ const AboutSection = () => {
             </p>
             <p>
               I also possess coding abilities in HTML, CSS, Javascript and React
-              Js which makes me an excellent team member assisting frontend and
-              backend developer in acheiving users requirements. My focus
+              Js which makes me an excellent team members assisting frontend and
+              backend developers in achieving users requirements. My focus
               currently is geared towards building accessible inclusive users
               friendly products, brands and digital experience for a sustainable
               user experience in foreseeable future.

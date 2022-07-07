@@ -26,7 +26,7 @@
 }
 
 .inline__text {
-  @apply text-tertiary-100 font-semibold no-underline hover:animate-animatePing cursor-pointer;
+  @apply text-tertiary-100 font-medium no-underline hover:animate-animatePing cursor-pointer;
 }
 
 .btn {
