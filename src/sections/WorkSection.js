@@ -37,9 +37,9 @@ const WorkSection = () => {
               <span className={classes["work__text__span"]}>
                 Academy Dashboard
               </span>
-              A platform that provides daily overview for students and
-              teachers, great for long-term anaylsis and high level
-              understanding of behaviour.
+              A platform that provides daily overview for students and teachers,
+              great for long-term anaylsis and high level understanding of
+              behaviour.
             </div>
           </div>
           <div className="flex flex-col items-center justify-center mb-11 md:mb-0">
@@ -61,12 +61,12 @@ const WorkSection = () => {
         </div>
 
         <a
-          className={classes.btn}
+          className={classes["btn"]}
           target="_blank"
-          href="https://www.behance.net/benayo"
           rel="noopener noreferrer"
+          href="https://www.behance.net/benayo"
         >
-          @BENAYO on behance
+          @Benayo on behance
         </a>
       </div>
     </section>
