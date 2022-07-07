@@ -30,7 +30,7 @@
 }
 
 .btn {
-  @apply text-center cursor-pointer md:w-fit font-normal font-body hover:-translate-y-0.5 transform mt-11 rounded-md  bg-tertiary-100 uppercase border-none px-4 py-2.5  lg:px-8 md:py-3  shadow-xl text-secondary-100 no-underline;
+  @apply text-center cursor-pointer md:w-fit font-normal font-body hover:-translate-y-0.5 transform mt-8 md:mt-11 rounded-md  bg-tertiary-100 uppercase border-none px-4 py-2.5  lg:px-8 md:py-3  shadow-xl text-secondary-100 no-underline;
 }
 
 .btn:hover {

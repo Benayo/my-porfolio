@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import Layout from "./layout/Layout";
+import Nav from "./components/Nav";
 import HeaderSection from "./sections/HeaderSection";
 import AboutSection from "./sections/AboutSection";
 import ResumeSection from "./sections/ResumeSection";
@@ -25,17 +26,21 @@ function App() {
   }
 
   return (
-    <Layout>
-      <HeaderSection onClick={toogleSideBarHandler} />
+    <div>
+      <Layout>
+        <Nav onClick={toogleSideBarHandler} />
 
-      <AboutSection />
+        <HeaderSection />
 
-      <ResumeSection />
+        <AboutSection />
 
-      <WorkSection />
+        <ResumeSection />
 
-      <FooterSection />
-    </Layout>
+        <WorkSection />
+
+        <FooterSection />
+      </Layout>
+    </div>
   );
 }
 

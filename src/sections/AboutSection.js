@@ -16,7 +16,7 @@ const AboutSection = () => {
               frontend developer which I enjoy doing by building, developing and
               bringing products to life on the internet. My interest in web
               development started back in 2020 when I decided to take a dive
-              into product design and frontend developement at{" "}
+              into product design and frontend development at{" "}
               <a
                 target="_blank"
                 href="http://www.univelcity.com"
@@ -25,7 +25,7 @@ const AboutSection = () => {
               >
                 univelcity bootcamp
               </a>{" "}
-              in Yaba, Lagos where I collaborated with team memebers to produce
+              in Yaba, Lagos where I collaborated with team members to produce
               a fully prototyped mobile real estate app. Since then, I have been
               working at my current role as a product designer at{" "}
               <a

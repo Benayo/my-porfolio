@@ -1,5 +1,5 @@
 .hero__section {
-  @apply mt-11 p-4 sm:p-8 md:p-16 max-h-[100vh] relative font-body flex justify-center items-center md:mt-[3.75rem];
+  @apply mt-16  md:mt-[6.75rem]  p-4 sm:p-8 md:p-16 max-h-[100vh] relative font-body flex justify-center items-center;
 }
 
 .img__left {
