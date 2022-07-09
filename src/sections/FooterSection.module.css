@@ -46,7 +46,7 @@ textarea {
 }
 
 .contact__link__svg {
-  @apply h-4 w-4 lg:h-8 lg:w-8 text-white border-solid rounded-full p-3 lg:p-6 mr-8;
+  @apply h-4 w-4 lg:h-8 lg:w-8 text-white border-solid border-2 rounded-full p-3 lg:p-6 mr-8;
 }
 
 .contact__link__img {
