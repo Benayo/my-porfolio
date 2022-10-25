@@ -50,7 +50,7 @@ const AboutSection = () => {
             className={classes["btn"]}
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1AaLcxtCJd2rG_P48HqVsJCyhSNKCZEkY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FOSSZFtvpVe4Dw_wgQq4v7477l8LZlq9/view?usp=sharing"
           >
             Download cv
           </a>
